@@ -12,6 +12,14 @@ patterns = ['Download Process', 'Operation Process', 'Stolen Information',
 # percentages data
 percentages = [69.8, 8.4, 7.2, 1.2, 6.0, 7.4]
 
+# X
+patterns = ['Download Process', 'Operation Process', 'None','Stolen Information', 'Composite Targets',
+            'Remote Address' ]
+
+# percentages data
+percentages = [69.8, 8.4,  7.4,7.2, 6.0,1.2 ]
+
+
 fig, ax = plt.subplots(figsize=(18, 10))
 
 bar_width = 0.3 * 1/3 

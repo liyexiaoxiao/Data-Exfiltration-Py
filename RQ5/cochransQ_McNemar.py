@@ -6,7 +6,6 @@ from statsmodels.stats.contingency_tables import cochrans_q, mcnemar
 from statsmodels.stats.multitest import multipletests
 
 
-# ========== 你只需要改这里 ==========
 INPUT_FILES = [
     r"D:\大创\support_materials\RQ5\statistic test\benchA_1.xlsx",
     r"D:\大创\support_materials\RQ5\statistic test\benchA_3.xlsx",
@@ -15,11 +14,9 @@ INPUT_FILES = [
     r"D:\大创\support_materials\RQ5\statistic test\benchB_3.xlsx",
     r"D:\大创\support_materials\RQ5\statistic test\benchB_10.xlsx",
 ]
-# 工具列名（必须与你的xlsx一致）
 TOOLS = ["cerebro", "hybrid", "cuckoo", "virustotal", "EA4MP"]
 
-# 真实标签列名（你说的是 y_ture；如果其实是 y_true，请改成 y_true）
-Y_TRUE_COL = "y_ture"   # <- 这里按你给的列名写
+Y_TRUE_COL = "y_ture"  
 PACKAGE_COL = "package"
 
 # 输出目录
